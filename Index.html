@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/fight.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+  </head>
+  <body>
+    <div class="banner"></div>
+    
+    <div class="marco" ></div>
+    <div class="top-cont">
+      <img class="fondo" src="img/009-fighting-gifs.gif" />
+      <img id="normal1" src="img/normal1.gif" />
+      <img id="attack1" src="img/attack1.gif" />
+      <img id="hurt1" src="img/hurt1.gif" />
+      <img id="ded1" src="img/ded1.gif" />
+      <img id="normal2" src="img/normal2.gif" />
+      <img id="attack2" src="img/attack2.gif" />
+      <img id="hurt2" src="img/hurt2.gif" />
+      <img id="ded2" src="img/ded2.gif" />
+      <h2 id= "damage2" ></h2>
+      <h2 id= "damage1" ></h2>
+    </div>
+    <h1 id="win"></h1>
+    <div class="bott-cont">
+      <div class="player1">
+        <div class="bordeimg">
+          <input
+            type="image"
+            id="btn-attack1"
+            class="atackIc1"
+            src="https://cdn-icons-png.flaticon.com/512/4036/4036398.png"
+          />
+        </div>
+        <h2 id="hp1">100 hp</h2>
+      </div>
+      <div class="player2">
+      <div class="bordeimg">
+        <input
+          type="image"
+          class="atackIc2"
+          id="btn-attack2"
+          src="https://cdn-icons-png.flaticon.com/512/4036/4036398.png"
+        />
+      </div>
+      <h2 id="hp2">100 hp</h2>
+    </div>
+  
+    <script src="js/combate.js" async defer></script>
+  </body>
+</html>
