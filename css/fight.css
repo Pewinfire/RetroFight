@@ -217,9 +217,9 @@ body {
 #hp1,
 #hp2 {
   position: absolute;
-  margin-top: 5%;
+  margin-top: 8%;
   
-  left: 50%;
+  left: 42%;
 
-  font-size: 300%;
+  font-size: 3.8vw;
 }
