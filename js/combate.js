@@ -28,8 +28,8 @@ function reset() {
   alert("Pulsa aquí para reiniciar la batalla");
   window.location.reload(true);
 }
-// reinicia animaciones gif, valor de daño realizado y restablece animación base cuando hp>0.
 
+// reinicia animaciones gif, valor de daño realizado y restablece animación base cuando hp>0.
 function reinicio() {
   if (currentHp2 > 0) {
     var img = document.getElementById("attack1");
@@ -55,6 +55,7 @@ function reinicio() {
   document.getElementById("normal2").style.visibility = "visible";
 }
 
+// ataque player1
 function attack1() {
   var danyo = recibirDaño();
   currentHp2 = currentHp2 - danyo;
@@ -80,6 +81,7 @@ function attack1() {
   }
 }
 
+//ataque player2
 function attack2() {
   var danyo = recibirDaño();
   currentHp1 = currentHp1 - danyo;
@@ -110,6 +112,7 @@ const attackBtn2 = document.getElementById("btn-attack2");
 attackBtn1.addEventListener("click", attack1);
 attackBtn2.addEventListener("click", attack2);
 */
+// listeners botones ataque
 $('#btn-attack1').click(attack1);
 $('#btn-attack2').click(attack2);
 
